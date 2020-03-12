@@ -1,0 +1,33 @@
+{
+  "name": "slack-notify",
+  "version": "1.0.0",
+  "description": "Notify members each time there is PR on github repo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muarachmann/slack-notify-action.git"
+  },
+  "keywords": [
+    "slack-notify",
+    "node",
+    "js",
+    "github-actions"
+  ],
+  "author": "Mua Rachmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muarachmann/slack-notify-action/issues"
+  },
+  "homepage": "https://github.com/muarachmann/slack-notify-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@slack/web-api": "^5.8.0",
+    "axios": "^0.19.2",
+    "const": "^1.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
