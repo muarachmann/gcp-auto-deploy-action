@@ -1,2 +1,3 @@
-# ub-slack-bot-action
-Post messages to GSoC slack group
+# gcp-auto-deploy-action
+
+Deploy site to google cloud platform
