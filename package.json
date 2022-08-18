@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/muarachmann/slack-notify-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.9.1",
     "@slack/web-api": "^5.8.0",
     "axios": "^0.19.2",
     "const": "^1.0.0",
